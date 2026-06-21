@@ -82,9 +82,8 @@ If there are no new emails, it will simply print `No files to convert.` and exit
 
 - Gemini-suggested prices are a fallback only — used when the supplier sheet has no price or a price of `0`.
 - If Gemini's column mapping or price suggestion fails for any reason, the script falls back to safe defaults (e.g. `$9.99`) rather than crashing.
-- Make sure `credentials.json`, `token.json`, and `.env` are added to `.gitignore` before pushing to GitHub, since they contain sensitive credentials.
 
-## .gitignore suggestion
+## .gitignore 
 
 ```
 credentials.json
